@@ -194,9 +194,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 Add Aliases
 ```
-alias c='clear'
-alias e='echo'
-alias t='touch'
+echo 'alias c='clear'' > ~/.zshrc
+echo 'alias e='echo'' > ~/.zshrc
+echo 'alias t='touch'' > ~/.zshrc
 ```
 Install Web Browser \
 *note: I chose Google Chrome*
